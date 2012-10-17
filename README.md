@@ -1,23 +1,39 @@
-#iOS InAppPurchaseManager EXAMPLE#
+#iOS InAppPurchaseManager EXAMPLE OCTOBER 2012#
 
-I have had so many issues getting the OG version to work, I had to share this so others can stop struggling and get to work! Here is a modifed working version of this plugin, which also explains how to use the ApplicationPreferences Phonegap plugin to unlock products in your app, and the ever dreaded now do I make a restore purchases call, then unlock contents.
+I have had so many issues getting the OG version to work, I had to share this so others can stop struggling and get to work! Here is a modifed working version of this plugin, which also explains how to use the ApplicationPreferences Phonegap plugin to unlock products in your app, and the ever dreaded, "how do I make a restore purchases call" and then unlock contents.
 
 Props first go to the main deveoper who has made this possible, Matt Kane. And the countless other people on the web posting examples and helping out with questions.
 
 
 ## Adding the Plugin to your project ##
 
-Copy the .h and .m files to the Plugins directory in your project. Copy the .js file to your www directory and reference it from your html file(s). Finally, add StoreKit.framework to your Xcode project if you haven't already. 
+Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project. Copy the NEWLY REVISED .js file to your www directory and reference it from your html file(s). Finally, add StoreKit.framework to your Xcode project if you haven't already. 
 
 I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAppPurchaseManager.m must be replaced with cdvjk_JSONString
 
+If you want to UNLOCK PRODUCTS as I have done below you will need to use the ApplicationPreferences Plugin here. Surprisingly everything worked out of the box here. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ApplicationPreferences
+You do not really need to worry about the examples displayed there for the example code below, just add the files to your plugin folder as instructed on that page.
+
 MOST IMPORTANT
-Dont forget to add the plugin name to your .plist
+Dont forget to add the plugins names to your .plist in your project name folder.
+For example the in-app plugin needs to be..take note the first on has a lower case i, this is not a typo!
+inAppPurchaseManager (string name is) InAppPurchaseManager
+
+Then if you are using going to implement the ApplicationPreferences Plugin don't forget to add that to .plist too.
+This plugins names both start with a lower case a.
+applicationPreferences (string name is) applicationPreferences
 
 ## Using the plugin ##
-You can read the details outlined on the specifics of all the code below in this link, but this example code will get you up and running. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/InAppPurchaseManager
+You can read the details outlined on the specifics of the in-app js of the code below in this link, but this example code will get you up and running. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/InAppPurchaseManager
 I AM NOT including all the css and js for the example code below because this is a personal project, but you should be able to take the guts of what you see here and make it work for you. Maybe in the near future I will post a full working example.
 
+Note the js is closest to top so it will load your products first, and unlock products if already purchased.
+
+Make sure you in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
+
+So in this project I used:
+1. InAppPurchaseManager
+2. applicationPreferences
 
 
 	<!DOCTYPE html>
@@ -254,7 +270,7 @@ I AM NOT including all the css and js for the example code below because this is
 									
 	$('#ftk50').bind('touchstart', function() {
 					 $('.ftk50 .glow-hover-effect').fadeIn();          
-					 window.plugins.inAppPurchaseManager.makePurchase('FTKMAG50', 1);
+					 window.plugins.inAppPurchaseManager.makePurchase('FTKMAG50', 1); //here we make our purchase when button is tapped.
 					 });
 	$('#ftk50').bind('touchend', function() {
 					 $('.ftk50 .glow-hover-effect').fadeOut();
@@ -267,7 +283,7 @@ I AM NOT including all the css and js for the example code below because this is
 				     });
 	$('#ftk49').bind('touchstart', function() {
 					 $('.ftk49 .glow-hover-effect').fadeIn();         
-					 window.plugins.inAppPurchaseManager.makePurchase('FTKMAG49', 1);
+					 window.plugins.inAppPurchaseManager.makePurchase('FTKMAG49', 1); //here we make our purchase when button is tapped.
 					 });
 	$('#ftk49').bind('touchend', function() {
 					 $('.ftk49 .glow-hover-effect').fadeOut();
