@@ -24,7 +24,7 @@ This plugins names both start with a lower case a.
 applicationPreferences (string name is) applicationPreferences
 
 ## Using the plugin ##
-You can read the details outlined on the specifics of the in-app js of the code below in this link, but this example code will get you up and running. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/InAppPurchaseManager
+You can read the details outlined on the specifics of the in-app js of the code below in this link, but my example code below will get you up and running. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/InAppPurchaseManager
 I AM NOT including all the css and js for the example code below because this is a personal project, but you should be able to take the guts of what you see here and make it work for you. Maybe in the near future I will post a full working example.
 
 Note the js is closest to top so it will load your products first, and unlock products if already purchased.
