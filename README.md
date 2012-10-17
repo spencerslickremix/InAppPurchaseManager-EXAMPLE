@@ -4,6 +4,7 @@ I have had so many issues getting the OG version to work, I had to share this so
 
 Props first go to the main deveoper who has made this possible, Matt Kane. And the countless other people on the web posting examples and helping out with questions.
 
+IF ANYONE wants to help clean this up and bring it more up to speed than this, I am all for it!
 
 ## Adding the Plugin to your project ##
 
@@ -29,7 +30,7 @@ I AM NOT including all the css and js for the example code below because this is
 
 Note the js is closest to top so it will load your products first, and unlock products if already purchased.
 
-Make sure you in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
+Make sure your in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
 
 So in this project I used:
 1. InAppPurchaseManager
