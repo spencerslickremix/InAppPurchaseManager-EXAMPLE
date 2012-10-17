@@ -34,6 +34,7 @@ Make sure you in-app products are in itunes connect and make sure the message sa
 So in this project I used:
 1. InAppPurchaseManager
 2. applicationPreferences
+3. Cordova 2.0.0
 
 
 	<!DOCTYPE html>
