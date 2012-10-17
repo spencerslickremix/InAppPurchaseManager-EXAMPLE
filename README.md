@@ -11,7 +11,7 @@ Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project.
 
 I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAppPurchaseManager.m must be replaced with cdvjk_JSONString
 
-If you want to UNLOCK PRODUCTS as I have done below you will need to use the ApplicationPreferences Plugin here. Surprisingly everything worked out of the box here. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ApplicationPreferences
+If you want to UNLOCK PRODUCTS as I have done below you will need to use the ApplicationPreferences Plugin. Everything works out of the box here too. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ApplicationPreferences
 You do not really need to worry about the examples displayed there for the example code below, just add the files to your plugin folder as instructed on that page.
 
 MOST IMPORTANT
