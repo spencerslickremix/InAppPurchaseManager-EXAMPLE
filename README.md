@@ -14,7 +14,7 @@ I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAp
 If you want to UNLOCK PRODUCTS as I have done below you will need to use the ApplicationPreferences Plugin. Everything works out of the box here too. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ApplicationPreferences
 You do not really need to worry about the examples displayed there for the example code below, just add the files to your plugin folder as instructed on that page.
 
-MOST IMPORTANT
+## MOST IMPORTANT ##
 Dont forget to add the plugins names to your .plist in your project name folder.
 For example the in-app plugin needs to be..take note the first on has a lower case i, this is not a typo!
 inAppPurchaseManager (string name is) InAppPurchaseManager
