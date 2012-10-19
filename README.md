@@ -33,9 +33,12 @@ Note the js is closest to top so it will load your products first, and unlock pr
 Make sure your in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
 
 So in this project I used:
-1. InAppPurchaseManager
-2. applicationPreferences
-3. Cordova 2.0.0
+1) InAppPurchaseManager
+2) applicationPreferences
+3) Cordova 2.0.0
+4) Xcode 4.5.1
+
+NOTE: Project Images below this code depicting Cordova.plist settings and bundle identifier settings, just in case you have overlooked anything. It's always better to see what a real project looks like than hearing about it, especially if it's your first one. 
 
 
 	<!DOCTYPE html>
@@ -303,3 +306,15 @@ So in this project I used:
     
 	</body>
 	</html>
+	
+## Additional Project Images ##
+
+Hopefully these will help some people out too. I am using Xcode 4.5.1 
+
+
+This is a look at the cordova.plist
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/overview%20of%20cordova%20plist.png)
+
+
+This is a look at the bundle identifier area that needs to match your App ID you should have created in the Itunes Developer area.
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/overview%20of%20cordova%20plist.png)
