@@ -41,9 +41,9 @@ I AM NOT including all the css and js for the example code below because this is
 Note the js is closest to top so it will load your products first, and unlock products if already purchased.
 
 ## About Itunes Connect
-Make sure your in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
-
-Also make sure you have signed all the tax documents and filled out your bank info etc for the iOS Paid Applications. This is key to selling :) You can find this under your main window when you login to Itunes Connect. Then click on the link that says, Contracts, Tax, and Banking.
+1.  Make sure your new app or version of app says status: waiting for upload.
+2.  Make sure in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
+3.  Also make sure you have signed all the tax documents and filled out your bank info etc for the iOS Paid Applications. This is key to selling :) You can find this under your main window when you login to Itunes Connect. Then click on the link that says, Contracts, Tax, and Banking.
 
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/contract-link.png)
  
