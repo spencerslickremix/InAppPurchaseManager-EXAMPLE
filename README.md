@@ -1,4 +1,4 @@
-#iOS InAppPurchaseManager EXAMPLE OCTOBER 2012#
+#iOS InAppPurchaseManager EXAMPLE OCTOBER 2012
 
 I have had so many issues getting the OG version to work, I had to share this so others can stop struggling and get to work! Here is a modifed working version of this plugin, which also explains how to use the ApplicationPreferences Phonegap plugin to unlock products in your app, and the ever dreaded, "how do I make a restore purchases call" and then unlock contents. I have also included a few project screen shots that will hopefully help first timers out.
 
@@ -6,7 +6,7 @@ Props first go to the main deveoper who has made this possible, Matt Kane. And t
 
 IF ANYONE wants to help clean this up and bring it more up to speed than this, I am all for it!
 
-## Adding the Plugin to your project ##
+## Adding the Plugin to your project
 
 Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project. Copy the NEWLY REVISED .js file to your www directory and reference it from your html file(s). Finally, add StoreKit.framework to your Xcode project if you haven't already. 
 
@@ -15,7 +15,7 @@ I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAp
 If you want to UNLOCK PRODUCTS as I have done below you will need to use the ApplicationPreferences Plugin. Everything works out of the box here too. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ApplicationPreferences
 You do not really need to worry about the examples displayed there for the example code below, just add the files to your plugin folder as instructed on that page.
 
-## MOST IMPORTANT ##
+## MOST IMPORTANT
 Dont forget to add the plugins names to your .plist in your project name folder.
 For example the in-app plugin needs to be..take note the first on has a lower case i, this is not a typo!
 inAppPurchaseManager (string name is) InAppPurchaseManager
@@ -24,13 +24,13 @@ Then if you are using going to implement the ApplicationPreferences Plugin don't
 This plugins names both start with a lower case a.
 applicationPreferences (string name is) applicationPreferences
 
-## Using the plugin ##
+## Using the plugin
 You can read the details outlined on the specifics of the in-app js of the code below in this link, but my example code below will get you up and running. https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/InAppPurchaseManager
 I AM NOT including all the css and js for the example code below because this is a personal project, but you should be able to take the guts of what you see here and make it work for you. Maybe in the near future I will post a full working example.
 
 Note the js is closest to top so it will load your products first, and unlock products if already purchased.
 
-## About Itunes Connect ##
+## About Itunes Connect
 Make sure your in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
 
 Also make sure you have signed all the tax documents and filled out your bank info etc for the iOS Paid Applications. This is key to selling :) You can find this under your main window when you login to Itunes Connect. Then click on the link that says, Contracts, Tax, and Banking.
@@ -40,11 +40,13 @@ Also make sure you have signed all the tax documents and filled out your bank in
 
 ### DO NOT USE SIMULATOR FOR IN-APP TESTING, USE YOUR DEVICE TO TEST. 
 
-So in this project I used:
-#### InAppPurchaseManager
-#### applicationPreferences (btw. you don't have to use this to make the inAppPurchaseManager function)
-#### Cordova 2.0.0
-#### Xcode 4.5.1
+So in this project I used
+-------------------------
+
+1. InAppPurchaseManager
+2. applicationPreferences (btw. you don't have to use this to make the inAppPurchaseManager function)
+3. Cordova 2.0.0
+4. Xcode 4.5.1
 
 ### NOTE
 Also See Project Images below this code depicting Cordova.plist settings and bundle identifier settings, just in case you have overlooked anything. It's always better to see what a real project looks like than hearing about it, especially if it's your first one. 
