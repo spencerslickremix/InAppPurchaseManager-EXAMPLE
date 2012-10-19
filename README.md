@@ -9,18 +9,20 @@ IF ANYONE wants to help clean this up and bring it more up to speed than this, I
 ## Adding the Plugin to your project
 
 Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project. Copy the NEWLY REVISED .js file to your www directory and reference it from your html file(s). Finally, add StoreKit.framework to your Xcode project if you haven't already. 
-* Adding StoreKit to you project.
+###Adding StoreKit to you project.
 1.  Click on your project
 2.  then your project target
 3.  then Build Phases
 4.  then open the Link Binary with libraries. 
 5.  Now drag the storeKit Framework over to your Project name area, as depicted in photo.
+
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/storekit.png)
 
-I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAppPurchaseManager.m must be replaced with cdvjk_JSONString
-
+###ALSO
 If you want to UNLOCK PRODUCTS as I have done below you will need to use the [ApplicationPreferences Plugin] (https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/ApplicationPreferences). Everything works out of the box here too. 
 You do not really need to worry about the examples displayed there for the example code below, just add the files to your plugin folder as instructed on that page.
+
+I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAppPurchaseManager.m must be replaced with cdvjk_JSONString
 
 ## MOST IMPORTANT
 Dont forget to add the plugins names to your .plist in your project name folder.
@@ -30,6 +32,7 @@ Dont forget to add the plugins names to your .plist in your project name folder.
 Then if you are using going to implement the ApplicationPreferences Plugin don't forget to add that to .plist too.
 * This plugins names both start with a lower case a.
 * applicationPreferences (string name is) applicationPreferences
+
 
 ## Using the plugin
 You can read the details outlined on the specifics of the in-app js of the code below in this [LINK] (https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/InAppPurchaseManager), but my example code below will get you up and running. 
