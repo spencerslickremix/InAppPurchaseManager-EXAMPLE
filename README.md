@@ -1,6 +1,6 @@
 #iOS InAppPurchaseManager EXAMPLE OCTOBER 2012#
 
-I have had so many issues getting the OG version to work, I had to share this so others can stop struggling and get to work! Here is a modifed working version of this plugin, which also explains how to use the ApplicationPreferences Phonegap plugin to unlock products in your app, and the ever dreaded, "how do I make a restore purchases call" and then unlock contents.
+I have had so many issues getting the OG version to work, I had to share this so others can stop struggling and get to work! Here is a modifed working version of this plugin, which also explains how to use the ApplicationPreferences Phonegap plugin to unlock products in your app, and the ever dreaded, "how do I make a restore purchases call" and then unlock contents. I have also included a few project screen shots that will hopefully help first timers out.
 
 Props first go to the main deveoper who has made this possible, Matt Kane. And the countless other people on the web posting examples and helping out with questions.
 
@@ -32,7 +32,8 @@ Note the js is closest to top so it will load your products first, and unlock pr
 
 Make sure your in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
 
-DO NOT USE SIMULATOR FOR IN-APP TESTING, MAKE SURE AND USE YOUR DEVICE TO RUN/TEST YOUR PROJECT. 
+### DO NOT USE SIMULATOR FOR IN-APP TESTING
+### MAKE SURE AND USE YOUR DEVICE TO RUN/TEST YOUR PROJECT. 
 
 So in this project I used:
 1) InAppPurchaseManager
@@ -40,7 +41,8 @@ So in this project I used:
 3) Cordova 2.0.0
 4) Xcode 4.5.1
 
-NOTE: Project Images below this code depicting Cordova.plist settings and bundle identifier settings, just in case you have overlooked anything. It's always better to see what a real project looks like than hearing about it, especially if it's your first one. 
+### NOTE
+Also See Project Images below this code depicting Cordova.plist settings and bundle identifier settings, just in case you have overlooked anything. It's always better to see what a real project looks like than hearing about it, especially if it's your first one. 
 
 
 	<!DOCTYPE html>
