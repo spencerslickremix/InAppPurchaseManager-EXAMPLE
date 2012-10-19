@@ -323,9 +323,9 @@ Also See Project Images below this code depicting Cordova.plist settings and bun
 Hopefully these will help some people out too. I am using Xcode 4.5.1 
 
 
-### This is a look at the cordova.plist
+This is a look at the cordova.plist
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/overview%20of%20cordova%20plist.png)
 
 
-### This is a look at the bundle identifier area that needs to match your App ID you should have created in the Itunes Developer area.
+This is a look at the bundle identifier area that needs to match your App ID you should have created in Itunes Connect.
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
