@@ -9,7 +9,13 @@ IF ANYONE wants to help clean this up and bring it more up to speed than this, I
 ## Adding the Plugin to your project
 
 Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project. Copy the NEWLY REVISED .js file to your www directory and reference it from your html file(s). Finally, add StoreKit.framework to your Xcode project if you haven't already. 
-* This is a good link to learn how to add the storekit to your project
+* Adding StoreKit to you project.
+1.  Click on your project
+2.  then your project target
+3.  then Build Phases
+4.  then open the Link Binary with libraries. 
+5.  Now drag the storeKit Framework over to your Project name area, as depicted in photo.
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/contract-link.png)
 
 I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAppPurchaseManager.m must be replaced with cdvjk_JSONString
 
