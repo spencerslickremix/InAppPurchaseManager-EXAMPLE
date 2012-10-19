@@ -41,10 +41,10 @@ Also make sure you have signed all the tax documents and filled out your bank in
 ### DO NOT USE SIMULATOR FOR IN-APP TESTING, USE YOUR DEVICE TO TEST. 
 
 So in this project I used:
-1) InAppPurchaseManager
-2) applicationPreferences
-3) Cordova 2.0.0
-4) Xcode 4.5.1
+InAppPurchaseManager
+applicationPreferences (btw. you don't have to use this to make the inAppPurchaseManager function)
+Cordova 2.0.0
+Xcode 4.5.1
 
 ### NOTE
 Also See Project Images below this code depicting Cordova.plist settings and bundle identifier settings, just in case you have overlooked anything. It's always better to see what a real project looks like than hearing about it, especially if it's your first one. 
