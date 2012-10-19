@@ -64,7 +64,7 @@ This is a look at the bundle identifier area that needs to match your App ID you
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
 
 
-So in this project I used
+In this project I used
 -------------------------
 
 1. InAppPurchaseManager
