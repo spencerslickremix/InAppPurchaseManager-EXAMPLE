@@ -32,8 +32,7 @@ Note the js is closest to top so it will load your products first, and unlock pr
 
 Make sure your in-app products are in itunes connect and make sure the message says, waiting for screenshot. That worked for me best and right away, no delay.
 
-### DO NOT USE SIMULATOR FOR IN-APP TESTING
-### MAKE SURE AND USE YOUR DEVICE TO RUN/TEST YOUR PROJECT. 
+### DO NOT USE SIMULATOR FOR IN-APP TESTING, USE YOUR DEVICE TO TEST. 
 
 So in this project I used:
 1) InAppPurchaseManager
