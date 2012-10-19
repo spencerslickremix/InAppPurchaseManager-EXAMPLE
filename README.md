@@ -13,7 +13,7 @@ Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project.
 1.  Click on your project
 2.  then your project target
 3.  then Build Phases
-4.  then open the Link Binary with libraries. 
+4.  then open the Link Binary with Libraries. 
 5.  Now drag the storeKit Framework over to your Project name area, as depicted in photo.
 
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/storekit.png)
@@ -49,6 +49,20 @@ Also make sure you have signed all the tax documents and filled out your bank in
  
 
 ### DO NOT USE SIMULATOR FOR IN-APP TESTING, USE YOUR DEVICE TO TEST. 
+
+
+## Additional Project Images ##
+
+Hopefully these will help some people out too. I am using Xcode 4.5.1 
+
+
+This is a look at the cordova.plist
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/overview%20of%20cordova%20plist.png)
+
+
+This is a look at the bundle identifier area that needs to match your App ID you should have created in Itunes Connect.
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
+
 
 So in this project I used
 -------------------------
@@ -327,15 +341,3 @@ Also See Project Images below this code depicting Cordova.plist settings and bun
     
 	</body>
 	</html>
-	
-## Additional Project Images ##
-
-Hopefully these will help some people out too. I am using Xcode 4.5.1 
-
-
-This is a look at the cordova.plist
-![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/overview%20of%20cordova%20plist.png)
-
-
-This is a look at the bundle identifier area that needs to match your App ID you should have created in Itunes Connect.
-![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
