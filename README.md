@@ -1,8 +1,8 @@
 #iOS InAppPurchaseManager EXAMPLE OCTOBER 2012
 
-I have had so many issues getting the OG version to work, I had to share this so others can stop struggling and get to work! Here is a modifed working version of this plugin, which also explains how to use the ApplicationPreferences Phonegap plugin to unlock products in your app, and the ever dreaded, "how do I make a restore purchases call" and then unlock contents. I have also included a few project screen shots that will hopefully help first timers out.
+I have had so many issues getting the [OG] (https://github.com/phonegap/phonegap-plugins/tree/master/iOS/InAppPurchaseManager) version to work, I had to share this so others can stop struggling and get to work! Here is a modifed working version of this plugin, which also explains how to use the ApplicationPreferences Phonegap plugin to unlock products in your app, and the ever dreaded, "how do I make a restore purchases call" and then unlock contents. I have also included a few project screen shots that will hopefully help first timers out.
 
-Props first go to the main deveoper who has made this possible, Matt Kane. And the countless other people on the web posting examples and helping out with questions.
+Props first go to the main deveoper who has made this possible, [Matt Kane] (https://github.com/phonegap/phonegap-plugins/tree/master/iOS/InAppPurchaseManager). And the countless other people on the web posting examples and helping out with questions.
 
 IF ANYONE wants to help clean this up and bring it more up to speed than this, I am all for it!
 
