@@ -320,4 +320,4 @@ This is a look at the cordova.plist
 
 
 This is a look at the bundle identifier area that needs to match your App ID you should have created in the Itunes Developer area.
-![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%identifier.png)
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
