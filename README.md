@@ -15,7 +15,7 @@ Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project.
 3.  then Build Phases
 4.  then open the Link Binary with libraries. 
 5.  Now drag the storeKit Framework over to your Project name area, as depicted in photo.
-![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/contract-link.png)
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/storekit.png)
 
 I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAppPurchaseManager.m must be replaced with cdvjk_JSONString
 
