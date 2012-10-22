@@ -65,7 +65,7 @@ Note the js is closest to top so it will load your products first, and unlock pr
 ### DO NOT USE SIMULATOR FOR IN-APP TESTING, USE YOUR DEVICE TO TEST. 
 
 
-## Make sure your iTunes Connect App ID matches the bundle identifier in your project.
+## iTunes Connect App ID must match the bundle identifier in your project.
 
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
 
