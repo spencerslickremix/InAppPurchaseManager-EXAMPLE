@@ -24,6 +24,18 @@ You do not really need to worry about the examples displayed there for the examp
 
 I am using cordova 2.0. If you are using 2.1 all instances of JSONString in InAppPurchaseManager.m must be replaced with cdvjk_JSONString
 
+## Getting Error on your build... 'CDVPlugin.h' file not found?
+Well here is the easiest way to fix that. 
+
+1.  Click on the project icon in the Project Navigator,
+2.  Select your Project, then select the "Build Settings" tab
+3.  Enter "Header Search Paths" in the search field
+4.  Add "$(CORDOVALIB)/Classes" and check the Recursive checkbox - for the "Header Search Paths" value
+
+Thanks to StackOverflow user513790 for this [ANSWER] (http://stackoverflow.com/questions/10714600/cdvplugin-h-file-not-found-in-cordova-as-component-cleaver).
+
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/storekit.png)
+
 ## MOST IMPORTANT
 Dont forget to add the plugins names to your .plist in your project name folder.
 * For example the in-app plugin needs to be...take note the first on has a lower case i, this is not a typo!
