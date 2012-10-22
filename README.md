@@ -34,7 +34,7 @@ Well here is the easiest way to fix that.
 
 Thanks to StackOverflow user513790 for this [ANSWER] (http://stackoverflow.com/questions/10714600/cdvplugin-h-file-not-found-in-cordova-as-component-cleaver).
 
-![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/storekit.png)
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/CDVPlugin-error-fix.png)
 
 ## MOST IMPORTANT
 Dont forget to add the plugins names to your .plist in your project name folder.
