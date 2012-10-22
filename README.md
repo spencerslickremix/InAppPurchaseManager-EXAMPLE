@@ -45,6 +45,8 @@ Then if you are using going to implement the ApplicationPreferences Plugin don't
 * This plugins names both start with a lower case a.
 * applicationPreferences (string name is) applicationPreferences
 
+This is a look at the cordova.plist
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/overview%20of%20cordova%20plist.png)
 
 ## Using the plugin
 You can read the details outlined on the specifics of the in-app js of the code below in this [LINK] (https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/InAppPurchaseManager), but my example code below will get you up and running. 
@@ -63,16 +65,8 @@ Note the js is closest to top so it will load your products first, and unlock pr
 ### DO NOT USE SIMULATOR FOR IN-APP TESTING, USE YOUR DEVICE TO TEST. 
 
 
-## Additional Project Images ##
+## Make sure your iTunes Connect App ID matches the bundle identifier in your project.
 
-Hopefully these will help some people out too. I am using Xcode 4.5.1 
-
-
-This is a look at the cordova.plist
-![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/overview%20of%20cordova%20plist.png)
-
-
-This is a look at the bundle identifier area that needs to match your App ID you should have created in Itunes Connect.
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
 
 
