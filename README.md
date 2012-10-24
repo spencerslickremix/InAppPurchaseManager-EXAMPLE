@@ -6,6 +6,15 @@ Props first go to the main deveoper who has made this possible, [Matt Kane] (htt
 
 IF ANYONE wants to help clean this up and bring it more up to speed than this, I am all for it!
 
+In this project I used
+-------------------------
+
+1. InAppPurchaseManager
+2. applicationPreferences (btw. you don't have to use this to make the inAppPurchaseManager function)
+3. Cordova 2.0.0
+4. Xcode 4.5.1
+
+
 ## Adding the Plugin to your project
 
 Copy the NEWLY REVISED .h and .m files to the Plugins directory in your project. Copy the NEWLY REVISED .js file to your www directory and reference it from your html file(s). Finally, add StoreKit.framework to your Xcode project if you haven't already. 
@@ -70,20 +79,12 @@ Note the js is closest to top so it will load your products first, and unlock pr
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/bundle%20identifier.png)
 
 
-In this project I used
--------------------------
-
-1. InAppPurchaseManager
-2. applicationPreferences (btw. you don't have to use this to make the inAppPurchaseManager function)
-3. Cordova 2.0.0
-4. Xcode 4.5.1
-
-### SUCCESSFULLY APPROVED 9 DAYS LATER
+## SUCCESSFULLY APPROVED 9 DAYS LATER
 
 ![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/success.png)
 
 
-### EXAMPLE HTML CODE
+## EXAMPLE HTML CODE
 
 	<!DOCTYPE html>
 	<html>
