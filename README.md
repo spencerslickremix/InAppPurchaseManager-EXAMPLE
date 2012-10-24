@@ -78,9 +78,12 @@ In this project I used
 3. Cordova 2.0.0
 4. Xcode 4.5.1
 
-### NOTE
-Also See Project Images below this code depicting Cordova.plist settings and bundle identifier settings, just in case you have overlooked anything. It's always better to see what a real project looks like than hearing about it, especially if it's your first one. 
+### SUCCESSFULLY APPROVED 9 DAYS LATER
 
+![My image](http://slickremix.com/gitub-InAppPurchaseManager-EXAMPLE-images/success.png)
+
+
+### EXAMPLE HTML CODE
 
 	<!DOCTYPE html>
 	<html>
