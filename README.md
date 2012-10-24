@@ -72,6 +72,7 @@ Note the js is closest to top so it will load your products first, and unlock pr
  
 
 ### DO NOT USE SIMULATOR FOR IN-APP TESTING, USE YOUR DEVICE TO TEST. 
+FYI. It appears os6 simulator does now work for this. Although it is a bit slow, good to use if you devices are not handy.
 
 
 ## iTunes Connect App ID must match the bundle identifier in your project.
